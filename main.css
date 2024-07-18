@@ -1,0 +1,537 @@
+@import url(https://fonts-online.ru/fonts/gilroy);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  rgba(32, 30, 67, 1);
+    font-family: "Gilroy", sans-serif;
+}
+
+.column-grid{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 92px;
+}
+.images-list-card{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.item-card{
+    background-color: #1a237e;
+    border-radius: 7px;
+}
+.item_list-card{
+    display: grid;
+    grid-template-columns: 252px 252px 252px;
+    grid-template-rows: 340px; 
+    gap: 40px;
+}
+
+.rect-img{
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect-img img{
+   
+    width: 237px;
+    height: 217px;
+
+}
+
+.item-hei{
+    height: 362px;
+}
+
+.item5 p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item5{
+    align-items: center;
+    display: grid;
+    color: white;
+    background-color:rgba(32, 30, 67, 1);
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; 
+    list-style-type: none;
+    align-items: center;
+}
+
+.item6{
+    justify-content: center;
+    grid-template-columns: auto;
+    display: grid;
+    color: gray;
+    background-color:rgba(32, 30, 67, 1);
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 247px 1fr 400px;
+    grid-template-rows: 135vh;
+    grid-auto-rows: 200px;
+}
+
+.column{
+    padding: 10px 15px;
+}
+.prof{
+    color: grey;
+}
+
+
+.item1{
+    background-color: #1a237e;
+}
+ .item2{
+    height: 130vh;
+    background-color:  rgba(32, 30, 67, 1);
+ }
+
+.item3{
+    background-color: rgba(32, 30, 67, 1);
+    height: 130vh;
+}
+
+.blue{
+    background-color: rgb(98, 39, 218);
+    width: 195px;
+    height: 165px;
+    border-radius: 10px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.icon img {
+    width: 35px;
+    height: 35px;
+}
+
+.text p{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu-item {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-right: 40px;
+    transition: border 0.3s, transform 0.3s;
+    border: 2px solid transparent;
+}
+
+.menu-item .icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-item .text {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.prof {
+    margin-top: 50px;
+    display: grid;
+    margin-left: 30px;
+    
+}
+
+.num{
+    font-size: 24px;
+}
+
+.blue{
+    display: grid;
+    margin-top: 60%;
+    margin-left: 10px;
+}
+
+
+.blue-title{
+    padding-top: 20px;
+}
+
+.blue-title p{
+    margin-top: 15px;
+    margin-left: 10px
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 165px;
+    background-color: aliceblue;
+    height: 35px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: blue;
+}
+
+.menu-item:hover{
+    background-color:  rgb(42, 37, 136);
+    transition: 0.6s;
+}
+
+.text-title a{
+    text-decoration:none ;
+    color: grey;
+}
+
+.menu-item:hover::before{
+    position: absolute;
+    content: ' ';
+    width: 4px;
+    height: 35px;
+    background-color: blue;
+    right: 0;
+    border-radius: 10px;
+    
+}
+
+.img-book{
+    position: relative;
+    bottom: 300px;
+    left: 190px;
+    width: 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.652);
+}
+ 
+.creat{
+    position: relative;
+    left: 200px;
+    bottom: 55px;
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.log-img img{
+    height: 50px;
+    width: 50px;
+}
+
+.eclipse{
+    margin-top: 20px;
+    width: 331px;
+    height: 403px;
+    background-color: #1a237e;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.span-number{
+    position: relative;
+    top: 210px;
+    left: 5px;
+    background-color: #1b216a ;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.eclipse-text{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 45%;
+    margin-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+.eclip{
+    margin-bottom: 10px;
+    width:286px;
+    height: 226px;
+}
+
+.start-info{
+    margin-top: 30px;
+    background-color: #1a237e;
+    width: 331px;
+    height: 372px;
+    border-radius: 10px;
+   
+}
+
+.main-thing span{
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.main-thing{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+}
+.main-col{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.gray-col{
+    color: gray;
+}
+.ecl-text{
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    display: grid;
+    color: white;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.list ul {
+    list-style: none;
+}
+.list li {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.span-list a {
+    text-decoration: none;
+    color: rgba(205, 198, 249, 1);
+}
+
+.span-list{
+    border-radius: 7px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    background-color: rgba(130, 112, 235, 0.2);
+    width: 91px;
+    height: 29px;
+}
+
+.images-text_p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(236, 235, 246, 1);
+}
+
+.images-text_one{
+    color: rgba(183, 171, 255, 1);
+}
+
+.images-text_span{
+    color: rgba(236, 235, 246, 1) ;
+    margin-right: 10px;
+}
+
+.search{
+    margin-left: 23px;
+    margin-top:26px;
+   
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+input{
+    border: none;
+    background-color: rgb(39, 35, 117);
+    width: 583px;
+    height:48px ;
+   
+    border-radius: 7px;
+}
+
+.icon-search img{
+    position: relative;
+    bottom: 34px;
+    left: 31px;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 60px;
+}
+
+.filter-svg img{
+    position: relative;
+    bottom: 55px;
+    left: 540px;
+}
+
+.nft{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 135px;
+    grid-template-rows: 40px; 
+}
+
+.nft-text{
+    display: grid;
+    align-items: center;
+}
+.nft-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.nft-list img{
+    position: relative;
+    left: 5px;
+}
+.nft-list{
+    border-radius: 7px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: rgb(45, 39, 155);
+    width: 98px;
+    height: 30px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.nft-list-style{
+    color: white;
+}
+
+.table{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 827px;
+    grid-template-rows: 301px; 
+    margin-top: 20px;
+}
+
+.table-list{
+    display: grid;
+    gap: 20px;
+    background-color: rgb(51, 46, 161);
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+table img {
+    width: 36px;
+    height: 36px;
+}
+
+.num{
+    color: white;
+}
+
+.pro-title{
+    margin-top: 10px;
+}
+
+.text-block{
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    background-color:  rgb(43, 38, 122);
+}
+
+.pro{
+    background-color: 
+    rgba(5, 205, 152, 0.3);
+    border-radius: 7px;
+    width: 34px;
+    left: 70px;
+    text-align: center;
+    bottom: 17px;
+    position: relative;
+    height: 19px;
+    color: rgba(5, 205, 153, 1);
+}
+
+.td-list{
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+th{
+    color: grey;
+}
+
+tr{
+    color: white;
+}
+
+.red{
+    color: rgba(243, 80, 119, 1);
+}
+
+.green{
+    color:rgba(51, 209, 185, 1);
+}
+
+
+
